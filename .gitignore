@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local server & logs
+*.log
+
+# Debug artifacts
+.screenshots/
+.trae-html-share-packages/
+tools/_*.png
