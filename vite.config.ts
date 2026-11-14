@@ -3,6 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  // GitHub Pages 项目页部署在 /fps-rewrite/ 子路径下，使用相对路径 base
+  base: "./",
   server: {
     host: "127.0.0.1",
     port: 5173,
